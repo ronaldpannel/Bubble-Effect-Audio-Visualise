@@ -13,7 +13,7 @@ class Agent {
     this.x = x;
     this.y = y;
     this.size = 8;
-    this.sound
+    this.sound;
     this.hue = 1;
     this.counter = 0;
     this.scaler = 1;
@@ -27,7 +27,7 @@ class Agent {
     ctx.fill();
   }
   changeSize(value) {
-    this.sound = value * 150;
+    this.sound = value * 190;
     if (this.sound > this.size) {
       this.size = this.sound;
     } else {
